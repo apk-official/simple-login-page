@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    font-size:3rem;
+    color: #36474F;
+    position: relative;
+    text-align: center;
+    right: 2.5rem;
+    bottom: 2rem;
+    font-weight: 400;
+}
+/*--------------------------*/
+/*-----HEADER----------*/
+/*--------------------------*/
+header{
+    background-color: #e0e0e0;
+    height: 100vh;
+    width: 100vw;
+
+}
+.main-content{
+    background-color: #f2f2f2;
+    display: flex;
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgb(191, 190, 190);
+}
+
+.picture-section{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+.image{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.person-icon{
+    color: #1FB198;
+
+}
+
+.input-username,
+.input-password{
+    width: 18rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid #1FB198;
+    background-color: #f2f2f2;
+}
+
+.username,
+.password{
+    width: 16rem;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    opacity: 0.5;
+    background-color: #f2f2f2;
+
+    
+
+}
+
+.input-password{
+    margin-top: 2rem;
+}
+
+
+.login-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 2rem;
+
+    width:50%;
+    height: 100%;
+    /*background-color: #fff;*/
+}
+
+.Login-credits{
+    position: relative;
+    left: 12%;
+}
+
+.frgt-paswd{
+    position: relative;
+    top: rem;
+    left: 35%;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #465A65;
+}
+
+
+.login{
+    position: relative;
+    top: 3rem;
+    width: 18rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background-color: #27DEC0;
+    border-radius: 10px;
+    right: 7.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    transition: background-color 0.4s;
+}
+
+.login:hover{
+ 
+    background-color: #1FB198;
+   
+}
+
+.profile-pic{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    bottom: 1.5rem;
+    background-color: rgb(235, 235, 235);
+    border: 3px solid #36474F;
+}
+
+
+.profile-pic img{
+    position: relative;
+    left: 5px;
+    align-items: center;
+    height: 8rem;
+    width: auto;
+}
